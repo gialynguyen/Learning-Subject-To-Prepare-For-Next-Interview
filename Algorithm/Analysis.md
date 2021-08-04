@@ -27,7 +27,7 @@ và nó nhanh hơn `insertion sort` - có thời gian chạy là `n^2` (bỏ qua
 lim --------- = 0;
        n^2
 
-	n log(n)            log(n)            1/n           1
+      n log(n)          log(n)            1/n           1
 lim ------------- = lim --------  =  lim ------- = lim ---- = 0
        n^2                 n               1            n
 ```
