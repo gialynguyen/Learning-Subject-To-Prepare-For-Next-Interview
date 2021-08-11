@@ -128,7 +128,7 @@ Thường khó phân tích `Average case` của một thuật toán hơn là ph�
 Thêm một ví dụ nữa với `Insertion sort` khi sắp xếp tăng dần 1 mảng các con số. Cách thức hoạt động của `Insertion sort` rất đơn giản.
 Ta sẽ duyệt qua từng phần tử, mỗi lần duyệt qua ta sẽ so sánh phần tử đó với các phần tử đã sắp xếp trước đó, cho tới khi gặp phần tử đầu tiên nhỏ hơn nó và tiến hành chèn vào.
 
-![insertion sort example](./assets/insertion-sort-example.gif)
+![insertion sort example](./assets/Insertion-sort-example.gif)
 
 Ta có thể implement nó như sau:
 
