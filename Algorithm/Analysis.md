@@ -28,7 +28,7 @@ _Note_: Ta có thể dễ dàng chứng minh như sau:
 lim --------- = 0;
        n^2
 
-	n log(n)            log(n)            1/n           1
+      n log(n)          log(n)            1/n           1
 lim ------------- = lim --------  =  lim ------- = lim ---- = 0
        n^2                 n               1            n
 ```
