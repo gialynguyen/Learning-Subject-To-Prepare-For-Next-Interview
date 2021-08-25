@@ -82,7 +82,7 @@ Riêng PostgreSQL và SQL Server, chúng hỗ trợ một MỆNH ĐỀ (clause) 
 	insert into rules (is_user) values (null)
 ```
 
-3. Copying a Table Definition:
+### 3. Copying a Table Definition:
 
 Khi bạn muốn tạo mới một table có cấu trúc tương tự với một bảng khác sẵn có, ví dụ như ta sẽ khởi tạo một bảng `admin` có cùng cấu trúc như table `customer` bên trên.
 
@@ -115,7 +115,7 @@ luôn luôn sai, ta sẽ đảm bảo được không có record nào sẽ đư�
 	where 1 = 0
 ```
 
-4. Copying Rows from One Table into Another
+### 4. Copying Rows from One Table into Another
 
 Khi ta muốn copy row từ table này sang table khác, trước hết ta phải đảm bảo 2 table có các column (được copy) phải có cùng cấu trúc (tên, kiểu dữ liệu). Khi này ta có thể dễ dàng
 copy row thông qua các câu lệnh query.
@@ -141,7 +141,7 @@ Ta sẽ copy các row có `is_admin` bằng `true` từ table `customer` qua bê
 Còn nếu như ta muốn copy tất cả copy thì ta chỉ việc loại bỏ mệnh đề `where` đi mà thôi. Còn nếu như ta bỏ qua việc liệt kê cụ thể các column, thì lúc này ta phải đảm bảo được
 tất cả số lương, cấu trúc và thứ tự của column ở hai table phải tương đồng với nhau nếu không muốn lỗi xảy ra.
 
-5. Inserting into Multiple Tables at Once.
+### 5. Inserting into Multiple Tables at Once.
 
 Vấn đề tương tự như trên, nhưng thay vì lấy tất cả các row sau khi query để insert vào một table nhất định thì ta sẽ insert chúng vào nhiều table cùng
 một lúc.
