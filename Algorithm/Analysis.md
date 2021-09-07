@@ -166,4 +166,4 @@ Rõ ràng, thời gian thực hiện của thuật toán `Insertion sort` sẽ p
 
 ![insertion sort worst case](./assets/insertion-sort-average-case.png)
 
-Suy ra độ phức tạp vẫn sẽ tương tự như `Best case`, vẫn sẽ là `O(n^2)`
+Suy ra độ phức tạp vẫn sẽ tương tự như `Worst case`, vẫn sẽ là `O(n^2)`
