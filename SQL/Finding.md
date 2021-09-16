@@ -31,7 +31,7 @@ Trong SQL, ký tự `*` có một ký nghĩa đặt biệt. Khi sử dụng nó 
 		from customer
 ```
 
-Trong trường hợp này, xét về mặt cú pháp, việc sử dụng SELECT \* có lẽ dễ dàng và ngắn gọn hơn. Tuy nhiên, trong lập trình thực tế, việc chỉ ra cụ thể từng column sẽ là cách tiếp cận tốt hơn. Có thể về mặt performace sẽ là như nhau, nhưng với việc thực hiện tường minh bạn sẽ luôn biết được những column mà bạn đang muốn trả về từ câu lệnh query. Tương tự như vậy, câu lệnh cũng sẽ trở nên tường minh và dễ hiểu hơn đối với những đông nghiệp của bạn hơn. Cũng như sẽ đảm bảo câu lệnh sẽ trả vừa đủ những gì mà ta mong đợi. Và ít ra, nếu như có một vài column bị thiếu bên trong table thì sẽ có một `error` được `throw` ra, phần nào đó giúp ta `tracing` và pháp hiện `error` kịp thời.
+Trong trường hợp này, xét về mặt cú pháp, việc sử dụng SELECT * có lẽ dễ dàng và ngắn gọn hơn. Tuy nhiên, trong lập trình thực tế, việc chỉ ra cụ thể từng column sẽ là cách tiếp cận tốt hơn. Có thể về mặt performace sẽ là như nhau, nhưng với việc thực hiện tường minh bạn sẽ luôn biết được những column mà bạn đang muốn trả về từ câu lệnh query. Tương tự như vậy, câu lệnh cũng sẽ trở nên tường minh và dễ hiểu hơn đối với những đông nghiệp của bạn hơn. Cũng như sẽ đảm bảo câu lệnh sẽ trả vừa đủ những gì mà ta mong đợi. Và ít ra, nếu như có một vài column bị thiếu bên trong table thì sẽ có một `error` được `throw` ra, phần nào đó giúp ta `tracing` và pháp hiện `error` kịp thời.
 
 ## 2. Retrieving a Subset of Rows from a Table
 
